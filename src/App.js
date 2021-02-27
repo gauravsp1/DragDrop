@@ -3,9 +3,9 @@ import DragDrop from "./DragDrop"
 
 function App() {
 
-  const data = [{ title: "Task", items: ["Buy Milk", "Grocery", "Iron Clothes"] },
-  { title: "To-Do", items: ["Buy Water", "Walk", "Wash Clothes"] },
-  { title: "Done", items: ["Buy Juice", "Run", "Fold Clothes"] }]
+  const data = [{ title: "Task", items: ["Buy Books Online", "Grocery", "Iron Clothes","Check Mails"] },
+  { title: "To-Do", items: ["Daily Reading", "Walk", "Wash Car"] },
+  { title: "Done", items: ["Meditate"] }]
   return (
     <div className="App">
       <DragDrop data={data}/>
