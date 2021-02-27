@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import DragDrop from "./DragDrop"
+
 
 function App() {
+
+  const data = [{ title: "Task", items: ["Buy Milk", "Grocery", "Iron Clothes"] },
+  { title: "To-Do", items: ["Buy Water", "Walk", "Wash Clothes"] },
+  { title: "Done", items: ["Buy Juice", "Run", "Fold Clothes"] }]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DragDrop data={data}/>
+
+
     </div>
   );
 }
