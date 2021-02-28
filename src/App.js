@@ -1,4 +1,4 @@
-import DragDrop from "./DragDrop"
+import DragDrop from "./Components/DragDrop"
 
 
 function App() {
